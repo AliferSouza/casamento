@@ -1,0 +1,50 @@
+   
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFAFA;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+
+video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px; 
+    padding: 1rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    
+}
+
+a{  
+    display: none;
+    left: -12rem; 
+    padding: 2rem;
+    width: center;
+    position: relative;
+    top: -20rem; 
+    border: 3px solid #000; 
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    body {
+        padding-top: 0.5rem;
+    }
+}
+
+
+
+
+
+
+
